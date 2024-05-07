@@ -1,7 +1,7 @@
 
 
 // ---------------------------------------------------
-const API = "http://www.omdbapi.com/?apikey=f3e53f153792c0d8bf054081b0271123";
+const API = "https://www.omdbapi.com/?apikey=f3e53f153792c0d8bf054081b0271123";
   var name;
 async function loadPage(){
   var response = await fetch(API + `&t=`+`Joker`);
