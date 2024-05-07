@@ -1,4 +1,4 @@
-const API = "http://www.omdbapi.com/?apikey=f3e53f153792c0d8bf054081b0271123";
+const API = "https://www.omdbapi.com/?apikey=f3e53f153792c0d8bf054081b0271123";
 
 async function loadMovies(){
     
