@@ -6,7 +6,7 @@ const API = "https://www.omdbapi.com/?apikey=f3e53f153792c0d8bf054081b0271123";
 async function loadPage(){
   var response = await fetch(API + `&t=`+`Joker`);
   var data = await response.json();
-  document.getElementById("movieOne").src= data.poster;
+  document.getElementById("movieOne").src= data.Poster;
   document.getElementById("movieOne").alt= data.Title;
 
 
